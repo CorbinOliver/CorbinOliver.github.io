@@ -1,0 +1,707 @@
+a:link{
+    text-decoration: none !important;
+}
+
+html{
+    background-color: rgb(240, 240, 240);
+}
+
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+}
+
+.mid-section{
+    width: 1180px;
+    height: 500vh;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    text-align: center;
+}
+ 
+.menu-box-container{
+    display: inline-block;
+    width: 700px;
+    height: 1130px;
+    background-color: rgb(238, 234, 227);
+    border-radius: 30px;
+    box-shadow: 0px 0px 7px 7px rgb(204, 204, 204);
+    margin: 2%;
+    margin-left: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menu-box-container.class{
+    float: left;
+}
+
+.menu-box-container.race{
+    height: 1937px;
+    float: right;
+    width: 455px;
+    margin-right: 0px;
+}
+
+.menu-box-container.background{
+    width: 700px;
+    float: left;
+    height: 784px;
+    margin-top: 0;
+}
+
+.menu-box-header-picture.class{
+    width: 100%;
+    height: 90px;
+    background-image: url("NXFZXcH.jpeg");
+    background-position: 50% 30%;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.menu-box-header{
+    width: 100%;
+    height: 90px;
+    background-color: #1b1b12;
+    opacity: .6;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    color: white;
+    font-size: 50px;
+    font-family: "Bebas Neue";
+	font-weight: 500;
+    line-height: 100px;
+}
+
+.menu-box-header.race{
+    border-bottom: solid 5px rgb(0, 153, 255);
+}
+
+.menu-box-header.class{
+    border-bottom: solid 5px rgb(255, 0, 0);
+}
+
+.menu-box-content{
+    width: 684px;
+    height: 1020px;;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.icon-container{
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-box-content > a{
+    display: block;
+    width: 130px;
+}
+
+@keyframes buttoneffect {
+    0% {transform: translateX(-2px);}
+    50% {transform: translateX(2px);}
+    100% {transform: translateX(0px);}
+}
+
+.icon-container:hover{
+    animation-name: buttoneffect;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+.icon-container > div{
+    display: inline-block;
+    color: white;
+    font-family: "Bebas Neue";
+	font-weight: 100;
+    font-size: 27px;
+    margin-top: 25px;
+    margin-left: 4px;
+}
+
+.icon{
+    display: inline;    
+    width: 60px;
+    height: 60px;
+    margin-left: -0px;
+    margin-top: 10px;
+    float: left;
+    color: white;
+    
+}
+
+.barbarian{
+    background-color: rgb(94, 44, 59);
+    border-right: 3px solid rgb(32, 16, 19);
+    border-bottom: 4px solid rgb(32, 16, 19);
+}
+
+.bard{
+    background-color: rgb(94, 64, 44);
+    border-right: 3px solid rgb(32, 27, 16);
+    border-bottom: 4px solid rgb(32, 27, 16);
+}
+
+.cleric{
+    background-color: rgb(44, 94, 83);
+    border-right: 3px solid rgb(16, 32, 25);
+    border-bottom: 4px solid rgb(16, 32, 25);
+}
+
+.druid{
+    background-color: rgb(72, 94, 44);
+    border-right: 3px solid rgb(27, 32, 16);
+    border-bottom: 4px solid rgb(27, 32, 16);
+}
+
+.fighter{
+    background-color: rgb(94, 44, 44);
+    border-right: 3px solid rgb(32, 16, 16);
+    border-bottom: 4px solid rgb(32, 16, 16);
+}
+
+.paladin{
+    background-color: rgb(94, 87, 44);
+    border-right: 3px solid rgb(30, 32, 16);
+    border-bottom: 4px solid rgb(30, 32, 16);
+}
+
+.ranger{
+    background-color: rgb(44, 94, 48);
+    border-right: 3px solid rgb(19, 32, 16);
+    border-bottom: 4px solid rgb(19, 32, 16);
+}
+
+.rogue{
+    background-color: rgb(92, 92, 92);
+    border-right: 3px solid rgb(34, 34, 34);
+    border-bottom: 4px solid rgb(34, 34, 34);
+}
+
+.sorcerer{
+    background-color: rgb(44, 87, 94);
+    border-right: 3px solid rgb(16, 30, 32);
+    border-bottom: 4px solid rgb(16, 30, 32);
+}
+
+.warlock{
+    background-color: rgb(76, 44, 94);
+    border-right: 3px solid rgb(28, 16, 32);
+    border-bottom: 4px solid rgb(28, 16, 32);
+}
+
+.wizard{
+    background-color: rgb(44, 53, 94);
+    border-right: 3px solid rgb(16, 20, 32);
+    border-bottom: 4px solid rgb(16, 20, 32);
+}
+
+.class-description{
+    float: right;
+    width: 480px;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 500;
+    font-family: "Sofia Sans Extra Condensed";
+    margin-top: 5px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #acacac;
+    border-top: 1px solid #acacac;
+    text-align: left;
+}
+
+.race-link{
+    display: inline;
+    width: 438px;
+    height: 90px;
+}
+
+.menu-box-header-picture.race{
+    width: 100%;
+    height: 90px;
+    background-image: url("dwarves.jpg");
+    background-position: 40% 40%;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.race-banner{
+    width: 438px;
+    height: 90px;  
+}
+
+.race-banner-fade > div{
+    opacity: 1;
+    color: white;
+    font-family: "Bebas Neue";
+	font-weight: 100;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 18px;
+    float: right;
+}
+  
+.race-banner-fade{
+    width: 438px;
+    height: 90px;
+    display: inline-block;
+    opacity: 0.6;
+}
+
+.race-descriptions{
+    width: 438px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.tooltip{
+    visibility: hidden;
+    display: block;
+    position: relative;
+    width: 600px;
+    z-index: 5;
+    background-color: #000000fa;
+    color: rgb(221, 221, 221);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+    left: -628px;
+    top: -90px;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+.race-banner-fade.firbolg{
+    background-color: #5b5d72;
+}
+
+.race-banner.firbolg{
+    background-image: url("firbolg.png");
+    background-position: 40% 40%; 
+}
+
+@keyframes bannereffectfirbolg {
+    0% {background-position: 40% 40%;}
+    50% {background-position: 40% 35%;}
+    100% {background-position: 40% 40%;}
+}
+
+.race-banner.firbolg:hover{
+    animation-name: bannereffectfirbolg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.race-banner.firbolg:hover .tooltip.firbolg{
+    visibility: visible;
+}
+
+.race-banner.elves{
+    background-image: url("elves.png");
+    background-position: 50% 30%;
+}
+
+.race-banner-fade.elves{
+    background-color: #807a5c;
+}
+
+@keyframes bannereffectelves {
+    0% {background-position: 50% 30%;}
+    50% {background-position: 50% 25%;}
+    100% {background-position: 50% 30%;}
+}
+
+.race-banner.elves:hover{
+    animation-name: bannereffectelves;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.race-banner.elves:hover .tooltip.elves{
+    visibility: visible;
+}
+
+.race-banner.dwarves{
+    background-image: url("dwarves2.png");
+    background-position: 20% 100%;
+}
+
+.race-banner-fade.dwarves{
+    background-color: #816646;
+}
+
+@keyframes bannereffectdwarves {
+    0% {background-position: 20% 100%;}
+    50% {background-position: 20% 96%;}
+    100% {background-position: 20% 100%;}
+}
+
+.race-banner.dwarves:hover{
+    animation-name: bannereffectdwarves;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.race-banner.dwarves:hover .tooltip.dwarves{
+    visibility: visible;
+}
+
+.race-banner.goblins{
+    background-image: url("goblin.jpg");
+    background-position: 100% 35%;
+}
+
+.race-banner-fade.goblins{
+    background-color: #6c8146;
+}
+
+@keyframes bannereffectgoblins {
+    0% {background-position: 100% 35%;}
+    50% {background-position: 100% 33%;}
+    100% {background-position: 100% 35%;}
+}
+
+.race-banner.goblins:hover{
+    animation-name: bannereffectgoblins;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.race-banner.goblins:hover .tooltip.goblins{
+    visibility: visible;
+}
+
+.race-banner.halflings{
+    background-image: url("halfling.jpeg");
+    background-position: 100% 21%;
+}
+
+.race-banner-fade.halflings{
+    background-color: #b3a06e;
+}
+
+@keyframes bannereffecthalflings {
+    0% {background-position: 100% 21%;}
+    50% {background-position: 100% 17%;}
+    100% {background-position: 100% 21%;}
+}
+
+.race-banner.halflings:hover{
+    animation-name: bannereffecthalflings;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.race-banner.halflings:hover .tooltip.halflings{
+    visibility: visible;
+}
+
+.race-banner.hobgoblins{
+    background-image: url("hobgoblin.png");
+    background-position: 45% 15%;
+}
+
+.race-banner-fade.hobgoblins{
+    background-color: #814f46;
+}
+
+@keyframes bannereffecthobgoblins{
+    0% {background-position: 45% 15%;}
+    50% {background-position: 45% 10%;}
+    100% {background-position: 45% 15%;}
+}
+
+.race-banner.hobgoblins:hover{
+    animation-name: bannereffecthobgoblins;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.race-banner.hobgoblins:hover .tooltip.hobgoblins{
+    visibility: visible;
+}
+
+.race-banner.humans{
+    background-image: url("human.png");
+    background-position: 150% 45%;
+}
+
+.race-banner-fade.humans{
+    background-color: #c5a68cb0;
+}
+
+@keyframes bannereffecthumans {
+    0% {background-position: 150% 45%;}
+    50% {background-position: 150% 40%;}
+    100% {background-position: 150% 45%;}
+}
+
+.race-banner.humans:hover{
+    animation-name: bannereffecthumans;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.race-banner.humans:hover .tooltip.humans{
+    visibility: visible;
+}
+
+.menu-box-header-picture.background{
+    width: 100%;
+    height: 90px;
+    background-image: url("market.png");
+    background-position: 50% 20%;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.menu-box-header.background{
+    background-color: #2f3621;
+    border-bottom: solid 5px rgb(21, 255, 0);
+}
+
+.background-link{
+    display: inline-block;
+    width: 170px !important;
+    height: 40px !important;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    transform: translateX(60px);
+    background-color: #271e16;
+    color: white;
+    font-size: 30px;
+    font-family: "Bebas Neue";
+	font-weight: 500;
+    line-height: 45px;
+}
+
+.background-link:hover{
+    box-shadow: 0px 0px 2px 2px gray;
+}
+
+.proficiencies{
+    width: 500px;
+    transform: translateX(7px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    border-bottom: dotted 3px #c7c7c7;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 12px;
+}
+
+.menu-box-container.picker{
+    width: 1180px !important;
+    height: 1780px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.menu-box-header-picture.picker{
+    width: 100%;
+    height: 90px;
+    background-image: url("magic.png");
+    background-position: 0% 50%;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.subpicker{
+    width: 200px;
+    height: 500px;
+    background-color: #e2d9c1;
+    box-shadow: 0px 0px 20px 3px #afafaf;
+    border: solid 1px #cfb998;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+    padding: 20px;
+}
+
+.classpicker{
+    margin-left: 20px;
+}
+
+.inspirationpicker{
+    width: 310px;
+    height: 290px;
+    float: right;
+    margin-right: 20px;
+}
+
+.equipment-buttons{
+    background-color: #052c22;
+    border-radius: 5px;
+    border: solid 2px rgb(22, 126, 95);
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px;
+    margin: 12px;
+}
+
+.equipment-buttons.armor{
+    margin-right: 0;
+}
+
+.equipment-buttons:hover{
+    background-color: rgb(22, 126, 95);
+    border: solid 2px #052c22;
+    color: rgb(0, 0, 0);
+}
+
+.equipment-subtitle.top{
+    margin-top: 20px;
+}
+
+.equipmentpicker{
+    width: 310px;
+    height: 1200px;
+    float: right;
+    margin-right: 20px;
+}
+
+.equipmentpicker > .radiocontainer{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.equipmentpicker > .radiocontainer > .checkmark{
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.equipment-subtitle{
+    border-bottom: solid 1px black;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    text-align: left;
+}
+
+.radiocontainer{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    
+}
+
+.radiocontainer input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: solid 4px white;
+}
+
+.radiocontainer:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+
+.radiocontainer input:checked ~ .checkmark{
+    background-color: #31a4e7;
+}
+
+.radiocontainer .checkmark:after{
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.pickertitle{
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #000000;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+}
+
+.backstory-container{
+    float: left;
+    width: 762px;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #327c70a8;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.backstory-input{
+    width: 742px;
+    min-height: 1035px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    height:auto;
+    border: none !important;
+    background-color: #f3efea;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.backstory-input:focus{
+    border: none;
+}
+
+.btn{
+    height: 40px;
+    width: 200px;
+    float: right;
+    margin-right: 87px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+}
